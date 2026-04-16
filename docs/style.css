@@ -392,3 +392,45 @@ main section{padding:78px 0}
   margin-left: auto;
   margin-right: auto;
 }
+.bg-download {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 12px 18px;
+  background: var(--blue);
+  color: white;
+  border-radius: 999px;
+  font-weight: 700;
+  transition: 0.25s ease;
+}
+
+.bg-download:hover {
+  background: var(--gold);
+  color: #1e2430;
+  transform: translateY(-2px);
+}
+
+.contact-simple {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.contact-box {
+  background: white;
+  padding: 25px 30px;
+  border-radius: 20px;
+  box-shadow: var(--shadow);
+  min-width: 220px;
+}
+
+.contact-box h3 {
+  color: var(--blue);
+  margin-bottom: 10px;
+}
+
+.contact-box a {
+  color: var(--blue);
+  font-weight: 700;
+}
