@@ -33,6 +33,12 @@ function updateCountdown() {
   secondsEl.textContent = seconds;
 }
 
+function toggleInfo(button) {
+  const description = button.nextElementSibling;
+  description.classList.toggle("show");
+  button.textContent = description.classList.contains("show") ? "Hide Info" : "Show Info";
+}
+
 updateCountdown();
 setInterval(updateCountdown, 1000);
 
